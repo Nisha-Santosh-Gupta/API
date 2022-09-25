@@ -1,0 +1,15 @@
+<head>
+    <title>Advance Javascript</title>
+</head>
+<body>
+    <script>
+        fetch("a/b.txt")
+        .then(function(variable_response){
+            return console.log(variable_response.text());
+           // return variable_response.text();
+        })
+        .then(data => { //here data is a parameter
+            console.log(data);
+        })
+    </script>
+</body>
